@@ -1,0 +1,16 @@
+{
+  "scenario": "surrogate_contaminated_run",
+  "nominal_flow_gpm": 8.0,
+  "states": [
+    "BOOT",
+    "READY",
+    "RUNNING",
+    "DEGRADED",
+    "ESD_0"
+  ],
+  "notes": [
+    "unit started with all permissives satisfied",
+    "final discharge remained blocked until verification passed",
+    "operator forced controlled stop after stale turbidity input demonstration"
+  ]
+}
