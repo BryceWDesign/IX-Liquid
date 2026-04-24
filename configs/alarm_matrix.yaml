@@ -1,0 +1,25 @@
+alarms:
+  - id: ALM-001
+    condition: waste tote high-high
+    severity: high
+    action: enter ESD_2 and block discharge
+  - id: ALM-002
+    condition: separator high-high
+    severity: high
+    action: stop feed and isolate process
+  - id: ALM-003
+    condition: turbidity stale
+    severity: medium
+    action: block discharge, allow hold/recirculation only
+  - id: ALM-004
+    condition: prefilter differential pressure high
+    severity: medium
+    action: enter WATCH then ESD_1 if unresolved
+  - id: ALM-005
+    condition: control battery low
+    severity: medium
+    action: preserve logs and alarm for maintenance
+  - id: ALM-006
+    condition: enclosure flooding
+    severity: critical
+    action: enter ESD_3
