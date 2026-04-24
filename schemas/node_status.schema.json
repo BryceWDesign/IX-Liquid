@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IX-Liquid Node Status",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "state",
+    "health_confidence",
+    "last_update_s"
+  ],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "state": {
+      "type": "string"
+    },
+    "health_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "last_update_s": {
+      "type": "number",
+      "minimum": 0
+    },
+    "maintenance_needed": {
+      "type": "boolean"
+    },
+    "active_mission_pack": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "process": {
+      "type": "object",
+      "properties": {
+        "flow_gpm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "waste_full": {
+          "type": "boolean"
+        },
+        "separator_high": {
+          "type": "boolean"
+        },
+        "critical_sensors_fresh": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
