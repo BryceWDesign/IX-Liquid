@@ -1,0 +1,38 @@
+version: 1
+controller:
+  type: click_plus
+  notes: Primary control processor for pilot skid.
+digital_inputs:
+  - tag: estop_ok
+    description: Emergency-stop loop healthy
+  - tag: waste_full
+    description: Waste tote high-high
+  - tag: separator_high
+    description: Separator high level
+  - tag: hold_available
+    description: Hold/recirculation tote available
+  - tag: maintenance_lockout
+    description: Maintenance mode active
+  - tag: valve_discharge_fb
+    description: Discharge valve position feedback
+  - tag: valve_recirculate_fb
+    description: Recirculation valve position feedback
+digital_outputs:
+  - tag: cmd_feed_pump
+  - tag: cmd_polish_pump
+  - tag: cmd_discharge_valve
+  - tag: cmd_recirculation_valve
+  - tag: cmd_hold_valve
+  - tag: cmd_alarm_beacon
+analog_inputs:
+  - tag: flow_gpm
+  - tag: inlet_pressure_psi
+  - tag: prefilter_dp_psi
+  - tag: polish_dp_psi
+  - tag: ph
+  - tag: orp_mv
+  - tag: conductivity_us_cm
+  - tag: turbidity_ntu
+  - tag: battery_soc_pct
+  - tag: panel_temp_f
+analog_outputs: []
