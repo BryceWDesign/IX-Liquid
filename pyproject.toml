@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ix-liquid"
+version = "0.1.0"
+description = "Bounded liquid-remediation pilot platform with startup permissives, staged shutdowns, and field-oriented verification."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "Bryce Lovell"}
+]
+license = {text = "Apache-2.0"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
