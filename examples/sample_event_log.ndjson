@@ -1,0 +1,3 @@
+{"timestamp": "2026-04-20T20:00:00Z", "event_type": "state_change", "state_from": "BOOT", "state_to": "READY", "reason_code": "BOOT_COMPLETE", "route_selected": null, "snapshot": {}}
+{"timestamp": "2026-04-20T20:01:00Z", "event_type": "state_change", "state_from": "READY", "state_to": "RUNNING", "reason_code": "STARTUP_PERMISSIVES_SATISFIED", "route_selected": "RECIRCULATE_UNTIL_VERIFIED", "snapshot": {"flow_gpm": 8.1, "turbidity_ntu": 18.4}}
+{"timestamp": "2026-04-20T20:22:00Z", "event_type": "state_change", "state_from": "RUNNING", "state_to": "DEGRADED", "reason_code": "CRITICAL_SENSOR_STALE", "route_selected": "RECIRCULATE_ONLY", "snapshot": {"flow_gpm": 8.0, "turbidity_ntu": null}}
