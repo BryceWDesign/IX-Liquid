@@ -1,0 +1,48 @@
+category,item,spec,qty,unit_cost_low_usd,unit_cost_high_usd,extended_low_usd,extended_high_usd,notes
+Mechanical,Powder-coated skid frame,"48"" x 96"" welded steel skid with forklift pockets",1,2200,3200,2200,3200,Base frame for pilot package
+Mechanical,Secondary containment tray,Bund pan sized to skid footprint,1,900,1400,900,1400,Captures leaks and maintenance drips
+Mechanical,Feed pump,"Chemical-compatible centrifugal pump, VFD-ready, 8–12 GPM duty",1,950,1600,950,1600,Raw influent lift/transfer
+Mechanical,Recirculation/discharge pump,Secondary pump for hold/recirculation path,1,650,1050,650,1050,Effluent routing
+Mechanical,Coarse basket strainer,"Serviceable intake strainer, 1"" class",1,350,650,350,650,Debris protection
+Mechanical,Spin-down/hydrocyclone prefilter,Pretreatment for grit and heavy solids,1,450,850,450,850,Reduces downstream loading
+Mechanical,Compact coalescing separator,Oil-water separation module sized for pilot flow,1,3500,5200,3500,5200,Primary free-oil knockdown
+Mechanical,Oleophilic sorbent stage,Replaceable sorbent basket/drum,1,600,1100,600,1100,Captures residual sheen
+Mechanical,Oil waste tote,Closed waste container with level switch,1,250,450,250,450,Recovered hydrocarbons
+Mechanical,"20"" Big Blue housings",Two housings for 5 micron and 0.5 micron cartridges,2,82,130,164,260,Representative high-flow cartridge housings
+Mechanical,Cartridge filter startup set,"5 micron + 0.5 micron cartridges, startup spares",1,180,320,180,320,Consumables
+Mechanical,Activated carbon vessel,10 x 54 loaded GAC vessel,1,459,700,459,700,Adsorptive polishing
+Mechanical,Ion exchange vessel,Small resin vessel / optional dissolved-contaminant pack,1,900,1500,900,1500,Site-specific polishing
+Mechanical,UV-C reactor,Approx. 20–21 GPM UV unit with sensor/controller,1,1500,1900,1500,1900,Optional microbial control
+Mechanical,Manual isolation valves,Ball valves and service unions,12,35,80,420,960,Isolation and maintenance
+Mechanical,Actuated routing valves,Three electric or solenoid-assisted valves,3,250,550,750,1650,Discharge / hold / recirculate
+Mechanical,"Piping, hose, and fittings","Schedule 80 PVC/HDPE/SS mix, unions, drains, sample ports",1,1800,2800,1800,2800,Interconnect package
+Mechanical,Sample ports and drain hardware,"Grab-sample taps, drains, vent hardware",1,180,350,180,350,Commissioning and QA
+Mechanical,Hold/recirculation tote,Intermediate clean-water buffer / hold tank,1,350,700,350,700,Recirculation and blocked discharge
+Instrumentation,Flow meter,Inline 1 in. flow meter with pulse/analog output,1,450,900,450,900,Process flow verification
+Instrumentation,pH kit,Industrial pH kit,1,490,650,490,650,Effluent chemistry
+Instrumentation,ORP kit,Industrial ORP kit,1,500,650,500,650,Oxidation/reduction trend
+Instrumentation,Conductivity kit,Industrial conductivity kit,1,590,750,590,750,Water quality trend
+Instrumentation,Turbidity sensor,Industrial turbidity probe or transmitter,1,800,1300,800,1300,Particulate trend
+Instrumentation,Level switches/sensors,"Waste tote, separator, and hold tank sensing",4,90,180,360,720,Overfill and low-level logic
+Instrumentation,Pressure transmitters,Inline pressure transmitters across major zones,4,150,280,600,1120,Health and restriction detection
+Instrumentation,Differential pressure sensors,Across prefilter and polishing stages,2,350,650,700,1300,Media fouling and service life
+Instrumentation,Enclosure environment sensor,Temperature/humidity for controls bay,1,50,140,50,140,Panel health
+Controls,PLC CPU,CLICK PLUS or similar micro PLC,1,110,160,110,160,Primary control logic
+Controls,PLC I/O modules,Analog/discrete expansion modules,3,53,95,159,285,Field I/O
+Controls,24 VDC power supply,Panel power supply,1,120,220,120,220,Controls power
+Controls,Battery backup / UPS,12 V 100 Ah LiFePO4 or equivalent DC reserve,1,550,850,550,850,Critical housekeeping power
+Controls,DC/DC charger and UPS hardware,Battery charging and brownout handoff,1,250,500,250,500,Reserve power integration
+Controls,HMI panel,7–10 in. industrial touchscreen,1,450,900,450,900,Operator interface
+Controls,Tower light and alarm buzzer,Local state indication,1,90,180,90,180,Visual and audible alerts
+Controls,Comms modem,LTE/LoRa/Wi-Fi gateway as required,1,250,550,250,550,Remote status
+Controls,Panel protection hardware,"Breakers, relays, fusing, surge suppression, terminals",1,500,950,500,950,Electrical protection
+Controls,Wiring and glands,"Cable, ferrules, glands, conduit, labels",1,450,850,450,850,Panel and skid wiring
+Fabrication,Control enclosure,NEMA 4X enclosure and backplate,1,900,1800,900,1800,Controls bay
+Fabrication,Panel build labor,"Layout, wiring, checkout",1,1800,2800,1800,2800,Electrical build
+Fabrication,Plumbing and skid assembly labor,Mechanical assembly and leak check,1,4200,6200,4200,6200,Physical build
+Fabrication,Controls programming and HMI,"PLC code, alarms, screens, historian",1,2500,4200,2500,4200,Software and tuning
+Fabrication,Commissioning and FAT,"Startup, dry run, wet test, punch list",1,2200,3400,2200,3400,Bring-up
+Fabrication,"Documentation, labeling, and safety kit","Placards, lockout tags, binder, spare labels",1,350,800,350,800,Deployment package
+QA,Spare media and consumables,"Extra cartridges, sorbent, GAC/resin top-up",1,700,1400,700,1400,Startup and first trials
+QA,Bench and field sample lab budget,Third-party sample bottles and analyses,1,1200,2500,1200,2500,Independent checks
+QA,Contingency,Unallocated 8–12% project contingency,1,2500,3800,2500,3800,Unknowns
