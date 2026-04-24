@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IX-Liquid Event",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "event_type",
+    "state_from",
+    "state_to",
+    "reason_code"
+  ],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "state_from": {
+      "type": "string"
+    },
+    "state_to": {
+      "type": "string"
+    },
+    "reason_code": {
+      "type": "string"
+    },
+    "operator_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "route_selected": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "snapshot": {
+      "type": "object",
+      "properties": {
+        "flow_gpm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "turbidity_ntu": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "conductivity_us_cm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "ph": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "orp_mv": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "prefilter_dp_psi": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "polish_dp_psi": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
