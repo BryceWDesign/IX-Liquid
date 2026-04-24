@@ -1,0 +1,12 @@
+startup_permissives:
+  - estop_ok
+  - plc_heartbeat_ok
+  - intake_available
+  - waste_not_full
+  - hold_route_available
+  - separator_not_high_high
+  - critical_sensors_fresh
+  - discharge_feedback_valid
+  - recirculation_feedback_valid
+  - no_maintenance_lockout
+  - no_latched_major_safety_event
